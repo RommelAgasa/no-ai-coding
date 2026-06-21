@@ -1,0 +1,14 @@
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\bin\Debug\net10.0\no-ai-here.exe
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\bin\Debug\net10.0\no-ai-here.deps.json
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\bin\Debug\net10.0\no-ai-here.runtimeconfig.json
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\bin\Debug\net10.0\no-ai-here.dll
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\bin\Debug\net10.0\no-ai-here.pdb
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.AssemblyInfoInputs.cache
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.AssemblyInfo.cs
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.csproj.CoreCompileInputs.cache
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.dll
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\refint\no-ai-here.dll
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.pdb
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.genruntimeconfig.cache
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\ref\no-ai-here.dll
