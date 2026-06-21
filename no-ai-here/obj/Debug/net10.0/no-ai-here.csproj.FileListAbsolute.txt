@@ -12,3 +12,4 @@ C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\refint\no-ai-
 C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.pdb
 C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.genruntimeconfig.cache
 C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\ref\no-ai-here.dll
+C:\Users\romme\Documents\NO AI CODING\no-ai-here\obj\Debug\net10.0\no-ai-here.sourcelink.json

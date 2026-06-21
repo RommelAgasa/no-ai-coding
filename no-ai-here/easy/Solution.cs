@@ -176,5 +176,120 @@ namespace no_ai_here
             return m; // either n or m;
         }
 
+        public long return_the_factorial(int n)
+        {
+            long factorial = 1;
+            for(int i = n; i > 1; i--)
+            {
+                factorial *= i;
+            }
+            return factorial;
+        }
+
+        public int count_vowels(string n)
+        {
+            if(string.IsNullOrEmpty(n)) throw new ArgumentException("String cannot be null.");
+
+            // Using a HashSet for 0(1) lookup
+            var vowels = new HashSet<char> {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+
+            int count = n.Count(x => vowels.Contains(x));
+            return count;
+        }
+
+
+        public int[] sort_num_ascending(int[] arr)
+        {
+            if(arr.Length == 0 || arr == null)
+            {
+                return [];
+            }
+
+            // insertion sort
+            for(int i = 0; i < arr.Length; i++)
+            {
+                int temp = arr[i];
+                int j = i;
+
+                while(j > 0 && temp < arr[j - 1])
+                {
+                    arr[j] = arr[j - 1];
+                    j = j - 1;
+                }
+                
+                arr[j] = temp;
+            }
+            return arr;
+        }
+
+
+        public string hacker_speak(string n)
+        {
+            if (string.IsNullOrEmpty(n))
+            {
+                throw new ArgumentException("String cannot be null.");
+            }
+
+            var charValue = new Dictionary<char, char>
+            {
+                {'a', '4'},
+                {'e', '3'},
+                {'i', '1'},
+                {'o', '0'},
+                {'s', '5'}
+            };
+
+            char[] chars = n.ToCharArray();            
+            for(int i = 0; i < n.Length; i++)
+            {
+                if (charValue.ContainsKey(chars[i]))
+                {
+                    chars[i] = charValue[chars[i]];
+                }
+            }
+
+            return new string(chars);
+        }
+
+        public int count_clap(string text)
+        {
+            char target = 'C';
+
+            int count = text.Count(c => c == target);
+            return count;
+        }
+
+        public string shape_with_n_sides(int side)
+        {
+            var shapes = new Dictionary<int, string>
+            {
+                {1, "circle"},
+                {2, "semi-circle"},
+                {3, "triangle"},
+                {4, "square"},
+                {5, "pentagon"},
+                {6, "hexagon"},
+                {7, "heptagon"},
+                {8, "octagon"},
+                {9, "nonagon"},
+                {10, "decagon"},
+            };
+
+            return shapes[side];
+        }
+
+        public string remove_first_last(string text)
+        {
+            if(text.Length == 0 || text == null)
+            {
+                throw new ArgumentException("String cannot be null.");
+            }
+
+            if(text.Length <= 2) return text;
+
+            string slice = text[1..^1];
+            return slice;
+        }
+
     }
 }
